@@ -397,5 +397,6 @@ def main(page: ft.Page):
     app.main(page)
 
 if __name__ == "__main__":
-            port = int(os.getenv("PORT", 8502))
-            ft.app(target=main, view=ft.WEB_BROWSER, port=port)
+           
+            ft.app(target=main, view=ft.WEB_BROWSER)
+
